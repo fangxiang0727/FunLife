@@ -1,0 +1,3 @@
+#define the baseline and function mode.
+#move the line to specific position, and pass the current time tag to the task
+#calulate how long the line stay with a task.
