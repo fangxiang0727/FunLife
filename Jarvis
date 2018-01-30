@@ -1,0 +1,7 @@
+#support the operation inculdes: add task,del task,modify task, show task.
+#tasks will be listed and arranged in the right order and calculate the right time point for all the tasks.
+
+#common/frequency tasks initial and add,like time_cost from 'wake up' to 'leave home',so  I can get the easy time estimation for when to get up.
+#frequent task will be remembered and easili searched
+
+#support the operation to anchor the timeline: show the timeline,move the timeline, then all the time point of task should be modified  instantly. 
