@@ -1,0 +1,10 @@
+#codes for task definition
+#the proporties will be added to ‘task’ later including:
+
+#title/name/description for the task-->name
+##estimated time cost-->estc
+#start point-->st
+
+#pre-define a task function as clock thing
+
+#
