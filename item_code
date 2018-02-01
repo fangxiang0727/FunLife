@@ -7,4 +7,4 @@
 
 #pre-define a task function as clock thing
 
-#
+class task(object):
