@@ -5,3 +5,24 @@
 #frequent task will be remembered and easili searched
 
 #support the operation to anchor the timeline: show the timeline,move the timeline, then all the time point of task should be modified  instantly. 
+
+
+Lf=[] #list for frequent tasks. -->room storing the frequent tasks.
+#Lfw will be a show window for displaying the Lf[]
+Lc=[] #list for current tasks,-->room storing the tasks online.
+#Lc will be a show window for displaying the Lc[]
+
+#if input_Lf is activated,and 'added', the input_Lf will be added to Lf[].
+#there shall be a poped page for Lf[], could be easily called up, and save the space when not needed.
+#the Lc[]_area is designed to store the tasks in the time order, with names
+#Lcw is the window designed to show the 
+#with 3-levels tag(lazy,common,prior) , with time tags
+#the tasks in the Lf[], could be easily moved to Lc[]
+#click the centerline of Lcw, could activate the Lc[], then could edit the the tasks in Lc[]
+#the tasks could be selected , then delete, or move to another position.
+#the tasks could be selected , then moved to the Lf[].
+# in the Lcw, should support the filter include the 'key name','priority tags','in time order'
+#brief template , task'buy colths'-->for who? what colth? size? date?
+#support creating an O'clock.
+#timeline/stay mode, 
+#timeline on, there will be a line indicating at the current task. show the completed percentage which should be expected 
