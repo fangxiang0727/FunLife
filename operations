@@ -1,7 +1,8 @@
 #define the operation functions
 
-define task_selec():       #could get the index of current activated task in the list, and the name the of the current list.
-    return x,L
+define task_select(L):       #could get the index of current activated task in the list, and the name the of the current list.
+    x=current_L.index
+    return x                 #return the index of L 
     pass
     
 define task_move(x,y,L):    #'x'is the index of the current task, y is the index of targeted position, 'L' is the current list
