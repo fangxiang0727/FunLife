@@ -1,0 +1,31 @@
+#define the operation functions
+
+define task_selec():       #could get the index of current activated task in the list, and the name the of the current list.
+    return x,L
+    pass
+    
+define task_move(x,y,L):    #'x'is the index of the current task, y is the index of targeted position, 'L' is the current list
+    pass
+define task_delete(x,L):    #'x'is the index of current task in the list, 'L' is the curent list
+    pass
+define task_add(x,L):       #'x'is the target position, x need a default value.'L'is the current list
+    passs
+
+#when need to move the tasks between Lc[] and Lf[],
+#move task from Lc[] to Lf[]
+define c2f(x,y,Lc=Lc,Lf=Lf):      #'x'means the index of the task in the Lc[],'y'  is the index of the tasks in the Lf[], Lc is the name of  Lc[],Lf is the name of Lf[]
+    Lf.insert(y,Lc[x])            #insert Lc[x] into Lf[] in the position y
+    Lc.pop[x]                     #delete the Lc[x]
+    pass
+    
+#move task from Lf[] to Lc[]
+define f2c(x,y,Lc=Lc,Lf=Lf):      #'x'means the index of the task in the Lf[],'y' is the index of the tasks in the Lc[], Lc is the name of  Lc[],Lf is the name of Lf[]
+    Lc.insert(y,Lf[x])            #insert Lf[x] into Lc[] in the position y
+    Lf.pop[x]                     #delete the Lf[x]
+    pass
+
+#UI iclcude two windwows, one is used to display Lf[], another is used to display Lc[]
+define Lf_display():
+define Lc_display():
+
+
